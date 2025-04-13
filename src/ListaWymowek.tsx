@@ -22,6 +22,7 @@ function ListaWymowek({ wymowki }: Props) {
                         {w.imie} ma wymówkę: "{w.powod}" z powodu: {w.szczegoly || 'brak szczegółów'}.
                         Poziom wiarygodności: {w.wiarygodnosc}, data: {w.data},
                         kreatywność: {w.kreatywnosc}, {w.pilna ? 'PILNE' : 'niepilne'}.
+
                     </li>
                 ))}
             </ul>
